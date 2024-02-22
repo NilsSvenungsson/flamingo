@@ -1,0 +1,76 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+
+* {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+nav {
+   display: flex;
+   justify-content: space-evenly;
+   gap: 2em;
+}
+
+.navbar {
+   display: flex;
+   justify-content: space-evenly;
+   gap: 2em;
+}
+
+.view {
+   height: fit-content;
+   padding: 2em;
+   margin: 5em;
+}
+
+ .view-content {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2em;
+ }
+
+ .view-comtent>* {
+   flex: 1 1 8em;
+ }
+
+ article {
+  margin-left: 3em;
+   width: 24em;
+ }
+
+/*
+ .text-formatted {
+   columns: 3;
+   width: 50em;
+   margin: 0 auto;
+ }
+*/
+
+ .pagination {
+   display: flex;
+   justify-content: space-between;
+   width: 16em;
+ }
+
+ nav input, nav button {
+   border-color: #89d2dc;
+   background-color: #d80f4b;
+   margin: 2em;
+   padding: 1em;
+   border-radius: 5%;
+ }
+
+ nav .nav {
+   margin-bottom: 1em;
+ }
+
+.region-top-header div {
+   margin-top: 1em;
+ }
